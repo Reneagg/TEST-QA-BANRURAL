@@ -1,8 +1,8 @@
-##Error 1 Numero aleatorio entero en linea 44
+##Numero aleatorio entero en linea 44
 Para generar un número entero aleatorio entre 1-100 se debe utilizar el metodo Math.floor el cual quedaría let randomNumber = Math.floor((Math.random() * 100) + 1); agregando una suma de +1 ya que este comienza a contar desde el 0.
-##Error 2 Cantidad de intentos en la linea 46
+##Cantidad de intentos en la linea 46
 El programa pide que se realicen un maximo de 10 intentos pero solo cuenta con 5 por lo cual la forma correcta como debería de quedar es: const ATTEMPS = 10;
-##Error 3 Error en la linea 49
+##Error en la linea 49
 No se estaba llamando de forma correcta al div, la forma correcta sería const lowOrHi = document.querySelector('.lowOrHi'); colocando el punto al principio del nombre
 ##Numero entero para funcionar
 El juego solicita que solo funcione con numeros enteros por lo cual hay que realizar una validación de que el numero ingresado por el usuario sea entero d elo contrario debe mostrar una alerta indicando que el numero no es valido.
@@ -22,3 +22,5 @@ randomNumber = randomNumber = Math.floor((Math.random() * 100) + 1);
 Al ingresar un numero menor mostraba "el numero es mayor" 
 ##Corrección mensaje Numero Mayor
 Al ingresar un numero menor mostraba "el numero es menor"
+##Validación de signo correcto
+En la linea 64 solamente se debe usar 2 signos "="
